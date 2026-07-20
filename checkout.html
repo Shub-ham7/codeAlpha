@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - CodeAlpha Store</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="/index.html" class="brand">CodeAlpha Store</a>
+    <div class="nav-links" id="nav-links"></div>
+  </nav>
+
+  <main>
+    <h1>Checkout</h1>
+    <div id="checkout-summary"></div>
+    <div class="form-card">
+      <form id="checkout-form">
+        <div class="form-group">
+          <label for="shippingName">Full Name</label>
+          <input type="text" id="shippingName" required>
+        </div>
+        <div class="form-group">
+          <label for="shippingAddress">Shipping Address</label>
+          <textarea id="shippingAddress" rows="3" required></textarea>
+        </div>
+        <button type="submit">Place Order</button>
+        <div id="form-msg"></div>
+      </form>
+    </div>
+  </main>
+
+  <script src="/js/common.js"></script>
+  <script src="/js/checkout.js"></script>
+</body>
+</html>

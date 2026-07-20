@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeAlpha Store</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav>
+    <a href="/index.html" class="brand">CodeAlpha Store</a>
+    <div class="nav-links" id="nav-links"></div>
+  </nav>
+
+  <main>
+    <h1>Shop Our Products</h1>
+    <div>
+      <label for="category-filter">Filter by category:</label>
+      <select id="category-filter">
+        <option value="">All</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Fashion">Fashion</option>
+        <option value="Home">Home</option>
+        <option value="Sports">Sports</option>
+      </select>
+    </div>
+    <div class="product-grid" id="product-grid">Loading products...</div>
+  </main>
+
+  <script src="/js/common.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
